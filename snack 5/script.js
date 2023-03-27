@@ -8,9 +8,10 @@ for (let i = 0 ; i < 6 ; i++){
   console.log(number)
 
   //VERIFICO I NUMERI DISPARI
-  if (i % 2){
-    console.log([i])
-    numberArray.slice(number[i]);
-    console.log(numberArray[i])
+  if (number % 2 === 1){
+    console.log('Dispari')
+    numberArray.push(number);
   }
 }
+
+console.log(numberArray);
