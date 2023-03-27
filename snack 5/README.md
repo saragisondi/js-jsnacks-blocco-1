@@ -8,4 +8,4 @@ Crea un array vuoto.
  - Creare un array vuoto;
  - Fare un prompt e un ciclo per chiedere 6 volte all'utente di inserire un numero;
  - Faccio un modulo per verificare quali sono i numeri dispari e quali i pari;
- - Inserisco una condizione per dire che se il numero è dispari va pushato nell array; 
+ - Inserisco una condizione per dire che se il numero è dispari va inserio nell array; 
