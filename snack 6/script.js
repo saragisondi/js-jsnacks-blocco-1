@@ -1,5 +1,5 @@
 //CHIEDO UN NUMERO ALL' UTENTE
-const number = prompt("inserisci un numero");
+const number = parseInt(prompt("inserisci un numero"));
 
 let output = document.getElementById("output")
 
@@ -8,7 +8,7 @@ if(isNaN(number)){
   console.log('inserisci un numero valido')
 }
 //
-for (let i = 0; i <= number; i++) {
-  output.innerHTML += (i + "^3 = " + i * 3 + '<br>');
-  console.log(output)
+for (let i = 1; i <= number; i++) {
+  const cubo = Math.pow(i,3);
+  console.log(cubo)
 }

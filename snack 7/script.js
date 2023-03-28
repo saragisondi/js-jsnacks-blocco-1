@@ -1,7 +1,8 @@
 
 let potenza = 1;
+const limitePotenza = 1000;
 
-while ( potenza < 1000){
-  potenza *=2;
+while ( potenza < limitePotenza){
   console.log(potenza);
+  potenza *=2;
 }

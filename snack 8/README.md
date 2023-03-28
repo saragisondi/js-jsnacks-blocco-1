@@ -7,3 +7,5 @@ Chiedi un numero di 4 cifre all’utente
  e recuperare una cifra alla volta usando il ciclo for per scorrere la stringa numerica
 
 ## STEPS
+
+facciamo un prompt per chiedere le 4 cifre all utente
